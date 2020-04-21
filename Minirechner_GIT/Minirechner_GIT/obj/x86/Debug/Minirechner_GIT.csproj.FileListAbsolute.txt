@@ -1,0 +1,5 @@
+C:\Users\aaron\Desktop\GIT\Minirechner_GIT\Minirechner_GIT\Minirechner_GIT\bin\Debug\Minirechner_GIT.exe
+C:\Users\aaron\Desktop\GIT\Minirechner_GIT\Minirechner_GIT\Minirechner_GIT\bin\Debug\Minirechner_GIT.pdb
+C:\Users\aaron\Desktop\GIT\Minirechner_GIT\Minirechner_GIT\Minirechner_GIT\obj\x86\Debug\Minirechner_GIT.exe
+C:\Users\aaron\Desktop\GIT\Minirechner_GIT\Minirechner_GIT\Minirechner_GIT\obj\x86\Debug\Minirechner_GIT.pdb
+C:\Users\aaron\Desktop\GIT\Minirechner_GIT\Minirechner_GIT\Minirechner_GIT\obj\x86\Debug\Minirechner_GIT.csprojResolveAssemblyReference.cache
