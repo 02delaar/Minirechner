@@ -10,6 +10,7 @@ namespace Minirechner_GIT
         static void Main(string[] args)
         {
             Titel("Minirechner");
+            Abfrage();
 
             Console.ReadKey();
         }
@@ -34,6 +35,21 @@ namespace Minirechner_GIT
                 Console.Write("-");   
             }
        
+        }
+
+        public static void Abfrage()
+        {
+            int ZahlA = 0;
+            string strOperant = " ";
+            int ZahlB = 0;
+
+            Console.Write("Bitte geben Sie die 1. Zahl ein: ");
+            ZahlA = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bitte geben Sie den Operant ein: ");
+            strOperant = Console.ReadLine();
+            Console.Write("Bitte geben Sie die 2. Zahl ein: ");
+            ZahlB = Convert.ToInt32(Console.ReadLine());
+            
         }
 
      }
