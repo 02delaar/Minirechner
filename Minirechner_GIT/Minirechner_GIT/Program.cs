@@ -51,7 +51,13 @@ namespace Minirechner_GIT
         {
             int ZahlA;
             Console.Write("Bitte geben Sie die 1. Zahl ein: ");
-            ZahlA = Convert.ToInt32(Console.ReadLine());
+
+            while (!Int32.TryParse(Console.ReadLine(), out ZahlA) || ZahlA < 1)             //Zahl < 1 wäre falsch, jedoch wegen des OR davor stimmt das!
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("FEHLER. Bitte wählen sie eine Verfügbare Zahl!");
+                Console.ForegroundColor = ConsoleColor.Gray;
+            }
             return ZahlA;
         }
 
@@ -61,13 +67,21 @@ namespace Minirechner_GIT
             Console.Write("Bitte geben Sie den Operant ein: ");
             strOperant = Console.ReadLine();
             return strOperant;
+            
         }
 
         static int Zahl_B_Eingabe()
         {
             int ZahlB;
             Console.Write("Bitte geben Sie die 2. Zahl ein: ");
-            ZahlB = Convert.ToInt32(Console.ReadLine());
+
+            while (!Int32.TryParse(Console.ReadLine(), out ZahlB) || ZahlB < 1)             //Zahl < 1 wäre falsch, jedoch wegen des OR davor stimmt das!
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("FEHLER. Bitte wählen sie eine Verfügbare Zahl!");
+                Console.ForegroundColor = ConsoleColor.Gray;
+            }
+
             return ZahlB;
         }
 
